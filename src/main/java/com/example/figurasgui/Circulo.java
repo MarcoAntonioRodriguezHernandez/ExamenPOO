@@ -2,9 +2,6 @@ package com.example.figurasgui;
 
 public class Circulo{
 
-    protected float base;
-    protected float altura;
-    protected float lado;
     protected float radio;
 
     public  float area(){
