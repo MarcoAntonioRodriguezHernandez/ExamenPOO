@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.figurasgui.MainController">
+   <children>
+      <Label layoutX="150.0" layoutY="33.0" text="Lado:" />
+      <Spinner fx:id="txt_cuadrado" layoutX="184.0" layoutY="29.0" prefHeight="25.0" prefWidth="87.0" />
+      <Button layoutX="285.0" layoutY="29.0" mnemonicParsing="false" onAction="#cuadrado" text="Calcular" />
+      <Label fx:id="lb_cuadrado_area" layoutX="356.0" layoutY="24.0" text="Area:" />
+      <Label fx:id="lb_cuadrado_perimetro" layoutX="356.0" layoutY="43.0" text="Perímetro:" />
+      <Label layoutX="157.0" layoutY="116.0" text="Base:" />
+      <Spinner fx:id="txt_rect_base" layoutX="189.0" layoutY="112.0" prefHeight="25.0" prefWidth="87.0" />
+      <Button layoutX="302.0" layoutY="129.0" mnemonicParsing="false" onAction="#rectangulo" text="Calcular" />
+      <Label fx:id="lb_rectangulo_area" layoutX="389.0" layoutY="118.0" text="Area:" />
+      <Label fx:id="lb_rectangulo_perimetro" layoutX="375.0" layoutY="141.0" text="Perímetro:" />
+      <Label layoutX="158.0" layoutY="148.0" text="Altura:" />
+      <Spinner fx:id="txt_rect_altura" layoutX="196.0" layoutY="145.0" prefHeight="25.0" prefWidth="87.0" />
+      <Label layoutX="143.0" layoutY="304.0" text="Base:" />
+      <Spinner fx:id="txt_trian_base" layoutX="176.0" layoutY="300.0" prefHeight="25.0" prefWidth="87.0" />
+      <Button layoutX="274.0" layoutY="317.0" mnemonicParsing="false" onAction="#triangulo" text="Calcular" />
+      <Label fx:id="lb_triangulo_area" layoutX="347.0" layoutY="295.0" text="Area:" />
+      <Label fx:id="lb_triangulo_perimetro" layoutX="346.0" layoutY="312.0" text="Perímetro:" />
+      <Label layoutX="139.0" layoutY="338.0" text="Altura:" />
+      <Spinner fx:id="txt_trian_altura" layoutX="176.0" layoutY="335.0" prefHeight="25.0" prefWidth="87.0" />
+      <Label layoutX="120.0" layoutY="229.0" text="Radio:" />
+      <Spinner fx:id="txt_circ_radio" layoutX="160.0" layoutY="225.0" prefHeight="25.0" prefWidth="87.0" />
+      <Button layoutX="259.0" layoutY="225.0" mnemonicParsing="false" onAction="#circulo" text="Calcular" />
+      <Label fx:id="lb_circulo_area" layoutX="332.0" layoutY="218.0" text="Area:" />
+      <Label fx:id="lb_circulo_perimetro" layoutX="331.0" layoutY="237.0" text="Perímetro:" />
+      <Label fx:id="lb_triangulo_hipotenusa" layoutX="345.0" layoutY="329.0" text="Hipotenusa:" />
+      <Label fx:id="lb_triangulo_tipo" layoutX="345.0" layoutY="346.0" text="Tipo:" />
+      <Label layoutX="17.0" layoutY="24.0" text="Cuadrado">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="119.0" text="Rectangulo">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+      <Label layoutX="17.0" layoutY="215.0" text="Circulo">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="311.0" text="Triangulo">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
